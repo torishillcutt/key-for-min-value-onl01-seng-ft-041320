@@ -3,7 +3,7 @@
 def key_for_min_value(name_hash)
 new_array = []
 new_array << name_hash.reduce{ |key, value| key.last > value.last ? value : key }.first
-new_array
+new_array[]
 end
 
 
