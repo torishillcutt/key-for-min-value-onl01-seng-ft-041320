@@ -3,10 +3,9 @@
 
 def key_for_min_value(name_hash)
    name_hash.any? do |key, value|
+     if value = {} return nil
      if value == 1 || value == 10
        return key
-     else
-       nil
     end
   end
 end
