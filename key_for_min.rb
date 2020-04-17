@@ -7,6 +7,6 @@ def key_for_min_value(name_hash)
      if value == 1 || value == 10
        diff_hash << key
     end
-    diff_hash
   end
+  diff_hash
 end
