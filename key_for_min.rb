@@ -8,6 +8,6 @@ def key_for_min_value(name_hash)
     elsif value == 10
        return key
      end
-     name_hash
   end
+  name_hash
 end
